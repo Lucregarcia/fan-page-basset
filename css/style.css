@@ -226,289 +226,9 @@ transition: 1s;
 }
 
 .seguinos h2 {
-    font-size:25px;
+    font-size:20px;
     text-align: center;
 }
-
-
-/*!MEDIA QUERY INDEX*/
-
-@media  screen and (max-width:1000px) {
-.hero h1{
-    font-size: 40px;
-}   
-.little div  h3 { 
-    font-size: 30px;
-    font-weight:90px;
-    }
-
-.little div p {
-font-size: 24px;
-}
-}
-
-@media screen and (max-width:900px){
-.little div  h3 { 
-    font-size: 26px;
-    font-weight:85px;
-    }
-            
-.little div p {
-    font-size: 24px;
-}
-.little img {
-    width: 180px;
-    height: 200px;
-}
-.chapas{
-    height: 380px;
-}
-.chapas h2{
-    font-size: 30px;
-}
-
-}
-@media screen and (max-width:862px){    
-.hero h1{
-    font-size: 38px;
-}            
-.little div p {
-    font-size: 20px;
-}
-}
-
-@media screen and (max-width:800px){
-
-.tarjetas {
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    height: 550px;
-}
-.little {
-    width: 75%;
-    height: 230px;
-    margin: 10px;
-    padding: 2px;
-    }
-.little div  h3 { 
-    font-size: 35px;
-    font-weight:75px;
-    margin-bottom: 5px;
-    }
-.little div p {
-    font-size: 25px;
-    }
-
-.chapas{
-    height: 330px;
-}
-.chapas h2{
-    font-size: 28px ;
-}
-.bassetlovers div img { 
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    }
-.seguinos h2 {
-    font-size: 15px;
-}
-.seguinos img{
-    width:  75%;
-    height: 65px;
-    margin: 5px;
-}
-}
-
-
-@media screen and (max-width: 780px) {
-.hero {
-    width:100%;
-    height: 85vh;
-}
-.hero h1 {
-    font: weight 250px;
-    font-size:28px;
-}
-.hero a {
-    font-size: 20px;
-    font-weight:bold ;
-}
-.proyecto h2 {
-    font-size: 28px;
-}
-}
-
-@media screen and (max-width:700px) {
-.chapas{
-    height: 270px;
-}
-.chapas h2{
-    font-size: 25px ;
-}
-}
-
-@media screen and (max-width:650px) {
-
-.chapas{
-    height: 250px;
-    }
-
-.chapas h2{
-    font-size: 20px ;
-    }
-
-footer img {
-    width: 160px;
-    height: 180px;
-    }
-.bassetlovers p {
-    font-size: 15px;
-    }
-.bassetlovers div img { 
-    width: 40px;
-    height: 40px;
-    }
-.seguinos h2 {
-    font-size: 14px;
-    }
-.seguinos img{
-    width:  70%;
-    height: 60px;
-    }
-
-}
-@media screen and (max-width:615px) {
-.hero h1{
-    font-size: 25px;
-}
-.proyecto h2 {
-    font-size: 20px;
-}
-footer img {
-    width: 140px;
-    height: 150px;
-    }
-.little{
-    width: 90%;
-}
-} 
-@media screen and (max-width:550px){
-    .tarjetas{
-        height: 480px;
-    }
-    .little {
-        height: 200px;
-    }
-    .little div  h3 { 
-        font-size: 28px;
-        }
-    .little div p {
-        font-size: 23px;
-        }
-    .little a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .bassetlovers div img { 
-        width: 30px;
-        height: 30px;
-        }
-    .bassetlovers{
-        flex-direction: column;
-    }
-    .seguinos h2 {
-        font-size: 14px;
-        }
-    .seguinos img{
-        width:  60%;
-        height: 45px;
-        }
-}
-@media screen and (max-width: 500px){
-
-.chapas h2{
-    font-size: 19px ;
-}
-footer {
-    flex-direction:column;}
-
-.bassetlovers {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-}
-.bassetlovers p {
-    font-size: 25px
-}
-
-.seguinos {
-    margin: 15px;
-}
-.seguinos h2{
-    font-size: 20px;
-}
-.seguinos img{
-    margin: 10px;
-    width:  60%;
-    height: 60px;
-    }
-
-}
-
-@media screen and (max-width: 465px) {
-.chapas h2 {
-    font-size: 17px;
-    font-weight: 250px;
-}  
-
-nav ul{
-    flex-direction: column;
-    }
-.hero {
-    width: 100%;
-    height: 70vh;
-}
-.hero h1 {
-    font: weight 200px;
-}
-.hero a {
-    font-size: 15px;
-    font-weight:bold ;
-    margin: 5px;
-}
-.little p{
-    font-size: 20px;
-}
-}
-@media screen and (max-width:410px){
-
-.chapas{
-    height: 180px;
-    }
-.chapas h2 {
-    font-size: 13px;
-}
-
-.hero {
-    height: 60vh;
-}
-.hero h1{
-    font-size: 20px;
-}
-.little div  h3 { 
-    font-size: 25px;
-    }
-.little div p {
-    font-size: 18px;
-    }
-}
-
 
 /*!PAGE NOSOTROS*/
 
@@ -531,18 +251,20 @@ nav ul{
 .hero-nosotros h1 {
     font-size: 50px;
     font-weight: 80px;
-    color: rgba(243, 238, 241, 0.904);
+    color: rgba(238, 231, 235, 0.904);
     text-align: center;
     display: flex;
-    justify-content:baseline;
+    justify-content:center;
     align-items: center;
 }
 
 .lola{
     width: 100%;
     height: 600px;
-    background-color: #5f1717bd;
+    background-color: #380303ad;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-attachment: fixed;
 }
 .lola-presentacion{
@@ -560,16 +282,14 @@ nav ul{
 .lola-presentacion p{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:30px ;
-    margin: 20px 10px 20px 10px; 
+    margin: 15px 10px 15px 10px; 
     padding: 3px;
     text-align: left;
 }
-.foto-lola{
-    width: 50%;
-}
+
 .foto-lola img {
-    height:550px;
-    width:70%;
+    height:500px;
+    width:100%;
     margin: 15px;
     margin-top: 1px;
     box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
@@ -580,22 +300,22 @@ nav ul{
 .coco{
     width: 100%;
     height: 600px;
-    background-color: #6c8be070;
+    background-color: #5c78a16b;
     display: flex;
+    justify-content:center;
+    align-items: center;
     background-attachment: fixed;
 }
 
-.fotococo{
-    width: 50%;
-}
 .fotococo img{
-    height:570px;
-    width:80%;
+    height:500px;
+    width:100%;
     margin: 15px;
     margin-top: 1px;
     box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(158,146,146,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(158,146,146,0.75);
+    
 }
 
 /*GALERIA*/
@@ -643,94 +363,6 @@ nav ul{
     grid-column: span 2;
 }
 
-/*!MEDIA QUERY*/
-@media screen and (max-width:980px) {
-
-    .grid-galeria{ 
-        grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 450px;
-    } 
-    .grid-item {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-    .img1{
-        grid-column: span 2;
-    }
-    .img4 {
-        grid-column: span 2;
-    }
-    .img8 {
-        grid-row: span 2;
-    }
-    .img9 {
-        grid-row:span 2;
-    }
-    .img10 {
-        grid-row:span 2;
-    }
-}
-
-    
-@media screen and (max-width:840px) {
-
-    .grid-galeria {
-        grid-template-columns: 1fr;
-    }
-    .grid-item {
-        grid-column: span 1;
-        grid-row: span 2;
-    }
-    .img1 {
-        grid-row:span 1;
-    }
-    
-    .img3 {
-        grid-row:span 1;
-    }
-    .img4 {
-        grid-row:span 1;
-    }
-    .img11 {
-        grid-row:span 1;
-    }
-    }
-    @media screen and (max-width:780px) {
-        
-    }
-    @media screen and (max-width:750px) {
-    
-    .img2 {
-        grid-row:span 1;
-    }
-    .img5{
-        grid-row: span 2;
-    }
-    }
-    
-    @media screen and (max-width:480px){
-    .img5{
-        grid-row: span 1;
-    }
-    .img10{
-        grid-row: span 1;
-    }
-    .img11{
-        width: 490px;
-        height: 453px;
-        }
-
-    }
-    @media screen and (max-width:400px) {
-    
-    .grid-item{
-        grid-row: span 1;
-    }
-    .img11{
-        width: 450px;
-        height: 400px;
-        }   
-    }
 
 
 /*!HISTORIA*/
@@ -779,3 +411,501 @@ nav ul{
 .formulario .formularioComponente {
     font-size: 25px;
 }
+
+/*!MEDIA QUERY*/
+
+@media  screen and (max-width:1000px) {
+    .hero h1{
+        font-size: 40px;
+    }   
+    .little div  h3 { 
+        font-size: 30px;
+        font-weight:90px;
+        }
+    
+    .little div p {
+    font-size: 24px;
+    }
+    }
+    @media screen and (max-width:980px) {
+
+        .grid-galeria{ 
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: 450px;
+        } 
+        .grid-item {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .img1{
+            grid-column: span 2;
+        }
+        .img4 {
+            grid-column: span 2;
+        }
+        .img8 {
+            grid-row: span 2;
+        }
+        .img9 {
+            grid-row:span 2;
+        }
+        .img10 {
+            grid-row:span 2;
+        }
+    }
+    
+    @media screen and (max-width:900px){
+    .little div  h3 { 
+        font-size: 26px;
+        font-weight:85px;
+        }
+                
+    .little div p {
+        font-size: 24px;
+    }
+    .little img {
+        width: 180px;
+        height: 200px;
+    }
+    .chapas{
+        height: 380px;
+    }
+    .chapas h2{
+        font-size: 30px;
+    }
+.hero-nosotros h1 {
+    font-size: 40px;
+    font-weight: 70px;}
+    
+.lola{
+    width: 100%;
+    height: 500px;
+    }
+
+.lola-presentacion p{
+    font-size:25px ;
+    margin: 10px;
+    }
+        
+.foto-lola img {
+    height:450px;
+    width:100%;
+    margin: 10px;
+    }
+}
+
+@media screen and (max-width:862px){    
+    .hero h1{
+        font-size: 38px;
+    }            
+    .little div p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:840px) {
+
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .img1 {
+        grid-row:span 1;
+    }
+    
+    .img3 {
+        grid-row:span 1;
+    }
+    .img4 {
+        grid-row:span 1;
+    }
+    .img11 {
+        grid-row:span 1;
+    }
+    }  
+@media screen and (max-width:800px){
+    
+    .tarjetas {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 550px;
+    }
+    .little {
+        width: 75%;
+        height: 230px;
+        margin: 10px;
+        padding: 2px;
+        }
+    .little div  h3 { 
+        font-size: 35px;
+        font-weight:75px;
+        margin-bottom: 5px;
+        }
+    .little div p {
+        font-size: 25px;
+        }
+    
+    .chapas{
+        height: 330px;
+    }
+    .chapas h2{
+        font-size: 28px ;
+    }
+    .bassetlovers div img { 
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        }
+    .seguinos h2 {
+        font-size: 15px;
+    }
+    .seguinos img{
+        width:  75%;
+        height: 65px;
+        margin: 5px;
+    }
+    }
+    
+    
+@media screen and (max-width: 780px) {
+    .hero {
+        width:100%;
+        height: 85vh;
+    }
+    .hero h1 {
+        font: weight 250px;
+        font-size:28px;
+    }
+    .hero a {
+        font-size: 20px;
+        font-weight:bold ;
+    }
+    .proyecto h2 {
+        font-size: 28px;
+    }
+.hero-nosotros h1 {
+    font-size: 35px;
+    }    
+
+.lola{
+    height: 450px;
+    justify-content: center;
+    }
+.lola-presentacion h2{
+    font-size: 40px;
+}       
+.lola-presentacion p{
+    font-size:22px ;
+    margin: 5px;
+    }
+                
+.foto-lola img {
+    height:350px;
+    }
+.coco{
+    height: 500px;
+    justify-content: center;
+    }
+.fotococo img{
+    height:450px;
+    width:80%;
+    margin: 10px;
+    }
+}
+@media screen and (max-width:750px) {
+    
+    .img2 {
+        grid-row:span 1;
+    }
+    .img5{
+        grid-row: span 2;
+    }
+    }
+    
+@media screen and (max-width:700px) {
+    .chapas{
+        height: 270px;
+    }
+    .chapas h2{
+        font-size: 25px ;
+    }
+    }
+    
+@media screen and (max-width:650px) {
+    
+    .chapas{
+        height: 250px;
+        }
+    
+    .chapas h2{
+        font-size: 20px ;
+        }
+    
+footer img {
+    width: 160px;
+    height: 180px;
+    }
+.bassetlovers p {
+    font-size: 15px;
+    }
+.bassetlovers div img { 
+    width: 40px;
+    height: 40px;
+    }
+.seguinos h2 {
+    font-size: 14px;
+    }
+.seguinos img{
+    width:  70%;
+    height: 60px;
+    }
+.hero-nosotros {
+    height: 68vh;
+}
+.hero-nosotros h1 {
+    font-size: 30px;
+    }
+.coco{
+    height: 450px;
+}
+.fotococo img{
+    height:400px;
+    }
+}
+@media screen and (max-width:615px) {
+    .hero h1{
+        font-size: 25px;
+    }
+    .proyecto h2 {
+        font-size: 20px;
+    }
+    footer img {
+        width: 140px;
+        height: 150px;
+        }
+    .little{
+        width: 90%;
+    }
+.lola-presentacion h2{
+    font-size: 35px;
+}
+.lola-presentacion p{
+    font-size:22px ;
+    }
+.foto-lola img {
+    width:175px ;
+    }
+.coco{
+    height: 350px;
+    }
+.fotococo img{
+    height:300px;
+    }
+} 
+
+@media screen and (max-width:550px){
+        .tarjetas{
+            height: 480px;
+        }
+        .little {
+            height: 200px;
+        }
+        .little div  h3 { 
+            font-size: 28px;
+            }
+        .little div p {
+            font-size: 23px;
+            }
+        .little a img {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .bassetlovers div img { 
+            width: 30px;
+            height: 30px;
+            }
+        .bassetlovers{
+            flex-direction: column;
+        }
+        .seguinos h2 {
+            font-size: 14px;
+            }
+        .seguinos img{
+            width:  60%;
+            height: 45px;
+            }
+.hero-nosotros h1 {
+    font-size: 25px;
+    font-weight: 60px;
+    }
+.hero-nosotros {
+    height: 60vh;
+    }
+.lola{
+    height: 350px;
+}
+.lola-presentacion h2{
+    font-size: 30px;
+    }
+.lola-presentacion p{
+    font-size:18px ;
+    margin: 10px;
+    }
+.foto-lola img {
+    height: 300px;
+    width:180px ;
+    }
+.coco{
+    height: 330px;
+    }
+.fotococo img{
+    height:260px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .chapas h2{
+        font-size: 19px ;
+    }
+    footer {
+        flex-direction:column;}
+    
+    .bassetlovers {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+    .bassetlovers p {
+        font-size: 25px
+    }
+    
+    .seguinos {
+        margin: 15px;
+    }
+    .seguinos h2{
+        font-size: 20px;
+    }
+    .seguinos img{
+        margin: 10px;
+        width:  60%;
+        height: 60px;
+        }
+    }
+@media screen and (max-width: 480px){
+    
+    .img5{
+        grid-row: span 1;
+    }
+    .img10{
+        grid-row: span 1;
+    }
+    .img11{
+        width: 464px;
+        height: 440px;
+    }
+
+}
+@media screen and (max-width: 465px) {
+    .chapas h2 {
+        font-size: 17px;
+        font-weight: 250px;
+    }  
+    
+    nav ul{
+        flex-direction: column;
+        }
+    .hero {
+        width: 100%;
+        height: 70vh;
+    }
+    .hero h1 {
+        font: weight 200px;
+    }
+    .hero a {
+        font-size: 15px;
+        font-weight:bold ;
+        margin: 5px;
+    }
+    .little p{
+        font-size: 20px;
+    }
+
+.lola-presentacion h2{
+    font-size: 25px;
+    }
+.lola-presentacion p{
+    font-size:16px ;
+
+    }
+.foto-lola img {
+    height: 250px;
+    width:160px ;
+    }
+
+}
+@media screen and (max-width:440px){
+.lola{
+    height: 300px;
+}
+.lola-presentacion h2{
+    font-size: 23px;
+    }
+.lola-presentacion p{
+    font-size:14px;
+    margin: 5px;
+    }
+.foto-lola img {
+    height: 250px;
+    width:160px ;
+    }
+.coco{
+    height: 300px;
+}
+}
+
+
+
+@media screen and (max-width:410px){
+    
+    .chapas{
+        height: 180px;
+        }
+    .chapas h2 {
+        font-size: 13px;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .little div  h3 { 
+        font-size: 25px;
+        }
+    .little div p {
+        font-size: 18px;
+        }
+.foto-lola img {
+    height: 230px;
+    width:140px ;
+    }
+}
+@media screen and (max-width:400px) {
+    
+    .grid-item{
+        grid-row: span 1;
+    }
+    .img11{
+        width: 480px;
+        height: 350px;
+        }   
+    }
