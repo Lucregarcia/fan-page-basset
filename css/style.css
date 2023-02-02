@@ -51,40 +51,45 @@ nav ul {
 /*!MAIN*/
 
 .hero {
-    background: linear-gradient(rgba(73, 73, 73, 0.281), rgba(73, 74, 75, 0.253)), url("../img/cocoportada.jpg");
-    /*background-image: url("../img/cocoportada.jpg");*/
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    justify-content: center;
+    align-items: center;
 }
-.hero h1 {
-    color:white;
+
+.hero div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero div h1 {
+    color:rgb(228, 14, 14);
     font: weight 450px;
     font-size:45px;
     padding: 0px;
     margin-bottom: 10px;
+    text-align: left;
     }
 
-.hero a {
+.hero div a {
     font-size: 25px;
-    color: white;
+    color: rgb(241, 11, 11);
     font-weight: bolder;
     text-decoration: none;
     margin-top: 15px;
     transition: 2s;
+    text-align: center;
 }
 
 .hero a:hover {
     transform: scale(1.2);
 }
 
+.hero img{
+    width: 50%;
+    height: 650px;
+    margin: 15px;
+}
 
 /*!TARJETAS PROYECTO SOLIDARIO*/
 .proyecto {
@@ -432,10 +437,11 @@ footer img {
     }
 
 .anatomia div{
-    width: 70%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 }
 .anatomia h2{
     text-align: center;
@@ -451,7 +457,7 @@ footer img {
     padding: 4px;
 }
 .anatomia img{
-    width: 40%;
+    width: 35%;
     height: 400px;
     margin: 10px;
 }
@@ -580,8 +586,18 @@ footer img {
 
 /*!MEDIA QUERY*/
 
+@media  screen and (max-width:1100px){
+    .origen-basset h2{
+        font-size: 30px;
+    }
+
+    .origen-basset p{
+        font-size: 18px;
+        }
+}
+
 @media  screen and (max-width:1000px) {
-    .hero h1{
+    .hero div h1{
         font-size: 40px;
     }   
     .little div  h3 { 
@@ -620,7 +636,17 @@ footer img {
     .img10 {
         grid-row:span 2;
     }
+    .origen-basset h2{
+        font-size: 27px;
+    }
+    
+    .anatomia img{
+        width: 35%;
+        height: 350px;
+    }
+    
 }
+
     
 @media screen and (max-width:900px){
     .little div  h3 { 
@@ -664,7 +690,7 @@ footer img {
 }
 
 @media screen and (max-width:862px){    
-    .hero h1{
+    .hero div h1{
         font-size: 38px;
     }            
     .little div p {
@@ -672,7 +698,10 @@ footer img {
     }
 }
 @media screen and (max-width:840px) {
-
+    .hero img{
+        height: 550px;
+        width: 45%;
+    }
     .grid-galeria {
         grid-template-columns: 1fr;
     }
@@ -693,9 +722,30 @@ footer img {
     .img11 {
         grid-row:span 1;
     }
+    .bienvenidos div h1{
+        font-size: 27px;        
+    }
+    .bienvenidos div p{
+        font-size: 23px;
+    }
+    .bienvenidos img{
+        height: 600px;
+    }
+    .origen-basset h2{
+        font-size: 25px;
+    }
+
+    .origen-basset p{
+        font-size: 16px;
+        padding: 3px;
+        
+    }
 }  
 @media screen and (max-width:800px){
-    
+    .hero img{
+        height: 500px;
+        width: 45%;
+    }
     .tarjetas {
         flex-direction: column;
         justify-content:center;
@@ -739,13 +789,10 @@ footer img {
 }
     
 @media screen and (max-width: 780px) {
-    .hero {
-        width:100%;
-        height: 85vh;
-    }
-    .hero h1 {
-        font: weight 250px;
-        font-size:28px;
+    
+    .hero div h1 {
+        width: 100%;
+        font-size:25px;
     }
     .hero a {
         font-size: 20px;
@@ -754,33 +801,41 @@ footer img {
     .proyecto h2 {
         font-size: 28px;
     }
-.hero-nosotros h1 {
-    font-size: 35px;
+    .hero-nosotros h1 {
+        font-size: 35px;
     }    
 
-.lola{
-    height: 450px;
-    justify-content: center;
+    .lola{
+        height: 450px;
+        justify-content: center;
     }
-.lola-presentacion h2{
-    font-size: 40px;
+    .lola-presentacion h2{
+        font-size: 40px;
     }       
-.lola-presentacion p{
-    font-size:22px ;
-    margin: 5px;
+    .lola-presentacion p{
+        font-size:22px ;
+        margin: 5px;
     }
                 
-.foto-lola img {
-    height:350px;
+    .foto-lola img {
+        height:350px;
     }
-.coco{
-    height: 500px;
-    justify-content: center;
+    .coco{
+        height: 500px;
+        justify-content: center;
     }
-.fotococo img{
-    height:450px;
-    width:80%;
-    margin: 10px;
+    .fotococo img{
+        height:450px;
+        width:80%;
+        margin: 10px;
+    }
+    .origen-basset h2{
+        font-size: 23px;
+    }
+
+    .origen-basset p{
+        font-size: 15px;
+        padding: 5px;
     }
 }
 @media screen and (max-width:750px) {
@@ -791,6 +846,21 @@ footer img {
     .img5{
         grid-row: span 2;
     }
+    
+    .anatomia h2{
+        font-size: 30px;
+    }
+    .anatomia p{
+        font-size: 18px;
+        margin: 10px;
+        
+    }
+    .anatomia img{
+        width: 30%;
+        height: 250px;
+        margin: 5px;
+    }
+    
 }
     
 @media screen and (max-width:700px) {
@@ -800,10 +870,38 @@ footer img {
     .chapas h2{
         font-size: 25px ;
     }
+
+    .origen-basset{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        height: 300px;
+    }
+
+    .origen-basset h2{
+        font-size: 35px;
+        text-align: center;
+        background-color: rgb(139, 42, 3);
+        color: white;
+        margin: 10px;
+    }
+        
+    .origen-basset div {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        height: 200px;
+    }
 }
     
-@media screen and (max-width:650px) {
     
+@media screen and (max-width:650px) {
+    .hero img{
+        height: 400px;
+    }
     .chapas{
         height: 250px;
     }
@@ -841,6 +939,15 @@ footer img {
     }
     .fotococo img{
         height:400px;
+    }
+    .bienvenidos div h1{
+        font-size: 24px;        
+    }
+    .bienvenidos div p{
+        font-size: 19px;
+    }
+    .bienvenidos img{
+        height: 550px;
     }
 }
 @media screen and (max-width:615px) {
@@ -933,6 +1040,19 @@ footer img {
     .fotococo img{
         height:260px;
     }
+    .bienvenidos div h1{
+        font-size: 22px;
+        margin: 7px;
+    }
+    .bienvenidos div p{
+        font-size: 17px;
+        margin: 7px;
+        padding: 2px;
+    }
+    .bienvenidos img{
+        height: 500px;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -966,9 +1086,28 @@ footer img {
         width:  60%;
         height: 60px;
         }
+    .bienvenidos div h1{
+        font-size: 20px;
+    
+    }
+    .bienvenidos div p{
+        font-size: 15px;
+    }
+    .bienvenidos img{
+        height: 450px;
+    }
 }
 @media screen and (max-width: 480px){
-    
+    .hero img{
+        height: 350px;
+    }
+    .hero div h1{
+        font-size: 20px;
+        padding: 4px;
+    }
+    .hero div a{
+        font-size: 20px;
+    }
     .img5{
         grid-row: span 1;
     }
@@ -985,18 +1124,7 @@ footer img {
     nav ul{
         flex-direction: column;
         }
-    .hero {
-        width: 100%;
-        height: 70vh;
-    }
-    .hero h1 {
-        font: weight 200px;
-    }
-    .hero a {
-        font-size: 15px;
-        font-weight:bold ;
-        margin: 5px;
-    }
+    
     .tarjetas{
         width: 100%;
     }
@@ -1024,9 +1152,26 @@ footer img {
     .galeria div{
         width: 100%;
     }
+
+    .origen-basset{
+        height: 350px;
+    }
+
+    .origen-basset h2{
+        font-size: 30px;
+        margin: 5px;
+    }
+    .origen-basset div {
+        height: 250px;
+    }
 }
 
+
 @media screen and (max-width:440px){
+
+    .hero-nosotros h1{
+        font-size: 22px;
+    }
     .lola{
         height: 300px;
     }
@@ -1041,26 +1186,23 @@ footer img {
         height: 250px;
         width:160px ;
     }
-.coco{
+    .coco{
     height: 300px;
     }
 }
 
 @media screen and (max-width:410px){
     
+    .hero img{
+        height: 300px;
+    }
     .chapas{
         height: 180px;
     }
     .chapas h2 {
         font-size: 13px;
     }
-    
-    .hero {
-        height: 60vh;
-    }
-    .hero h1{
-        font-size: 20px;
-    }
+
     .little div  h3 { 
         font-size: 25px;
     }
@@ -1071,9 +1213,24 @@ footer img {
     .galeria h2{
     font-size: 40px;
     }
+
+    .origen-basset{
+        height: 400px;
+    }
+
+    .origen-basset h2{
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .origen-basset div {
+        height: 300px;
+    }
 }
 @media screen and (max-width:400px) {
-    
+    .hero-nosotros h1{
+        font-size: 20px;
+    }
     .grid-item{
         grid-row: span 1;
     }
