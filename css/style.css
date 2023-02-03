@@ -161,30 +161,9 @@ nav ul {
         padding: 5px;
 }
 
-.chapas {
-    margin-bottom: 10px;
-    /*background-image: url(../img/chapas.jpg)*/;
-    background: linear-gradient(rgba(87, 5, 5, 0.39), rgba(241, 129, 150, 0.226)), url("../img/chapas.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+.carrusel div img{
     width: 100%;
-    height: 400px;
-}
-.chapas h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(219, 212, 212);
+    height: 380px;
 }
 /*!FOOTER*/ 
 footer {
@@ -434,10 +413,11 @@ footer img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     }
 
 .anatomia div{
-    width: 50%;
+    width: 80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -457,9 +437,10 @@ footer img {
     padding: 4px;
 }
 .anatomia img{
-    width: 35%;
-    height: 400px;
+    width: 75%;
+    height: 350px;
     margin: 10px;
+    margin-bottom: 20px;
 }
 
 .comportamiento{
@@ -549,7 +530,7 @@ footer img {
     width: 100%;
     height: 450px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #662702d3;
     margin-top: 10px;  
@@ -608,6 +589,10 @@ footer img {
     .little div p {
     font-size: 24px;
     }
+    .anatomia img{
+        height: 300px;
+        width: 70%;
+    }
 }
 
 @media screen and (max-width:980px) {
@@ -640,11 +625,6 @@ footer img {
         font-size: 27px;
     }
     
-    .anatomia img{
-        width: 35%;
-        height: 350px;
-    }
-    
 }
 
     
@@ -661,31 +641,33 @@ footer img {
         width: 180px;
         height: 200px;
     }
-    .chapas{
-        height: 380px;
-    }
-    .chapas h2{
-        font-size: 30px;
-    }
-.hero-nosotros h1 {
-    font-size: 40px;
-    font-weight: 70px;
-    }
     
-.lola{
-    width: 100%;
-    height: 500px;
+    .hero-nosotros h1 {
+        font-size: 40px;
+        font-weight: 70px;
+    }
+    .carrusel div img{
+        width: 100%;
+        height: 300px;
+    }
+    .lola{
+        width: 100%;
+        height: 500px;
     }
 
-.lola-presentacion p{
-    font-size:25px ;
-    margin: 10px;
+    .lola-presentacion p{
+        font-size:25px ;
+        margin: 10px;
     }
         
-.foto-lola img {
-    height:450px;
-    width:100%;
-    margin: 10px;
+    .foto-lola img {
+        height:450px;
+        width:100%;
+        margin: 10px;
+    }
+    .contactos img {
+        width: 30%;
+        height: 350px;   
     }
 }
 
@@ -767,12 +749,6 @@ footer img {
         font-size: 25px;
         }
     
-    .chapas{
-        height: 330px;
-    }
-    .chapas h2{
-        font-size: 28px ;
-    }
     .bassetlovers div img { 
         width: 50px;
         height: 50px;
@@ -837,6 +813,12 @@ footer img {
         font-size: 15px;
         padding: 5px;
     }
+    .contactos div h1{
+        font-size: 45px;
+    }
+    .contactos img{
+        width: 45%;
+    }
 }
 @media screen and (max-width:750px) {
     
@@ -855,28 +837,19 @@ footer img {
         margin: 10px;
         
     }
-    .anatomia img{
-        width: 30%;
-        height: 250px;
-        margin: 5px;
+    .carrusel div img{
+        height: 280px;
     }
-    
 }
     
 @media screen and (max-width:700px) {
-    .chapas{
-        height: 270px;
-    }
-    .chapas h2{
-        font-size: 25px ;
-    }
-
+    
     .origen-basset{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: 10px;
-        height: 300px;
+        height: 450px;
     }
 
     .origen-basset h2{
@@ -893,23 +866,15 @@ footer img {
         width: 100%;
         margin: 5px;
         padding: 5px;
-        height: 200px;
+        height: 300px;
     }
 }
     
     
 @media screen and (max-width:650px) {
-    .hero img{
-        height: 400px;
-    }
-    .chapas{
+    .carrusel div img{
         height: 250px;
-    }
-    
-    .chapas h2{
-        font-size: 20px ;
-    }
-    
+    }  
     footer img {
         width: 160px;
         height: 180px;
@@ -956,6 +921,9 @@ footer img {
     }
     .proyecto h2 {
         font-size: 20px;
+    }
+    .carrusel div img{
+        height: 200px;
     }
     footer img {
         width: 140px;
@@ -1053,12 +1021,23 @@ footer img {
         height: 500px;
         width: 50%;
     }
+    .anatomia div{
+        width: 90%;
+    }
+    .anatomia img{
+        height: 200px;
+    }
+    .contactos img{
+        width: 40%;
+    }
+    .contactos div h1{
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 500px){
-    
-    .chapas h2{
-        font-size: 19px ;
+    .carrusel div img{
+        height: 160px;
     }
     footer {
         flex-direction:column;}
@@ -1118,6 +1097,12 @@ footer img {
         width: 464px;
         height: 440px;
     }
+    .anatomia div p{
+        font-size: 15px;
+    }
+    .comportamiento div p{
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 465px) {
@@ -1131,14 +1116,7 @@ footer img {
     .little p{
         font-size: 20px;
     }
-    .chapas h2 {
-        font-size: 17px;
-        font-weight: 250px;
-    }
-    .chapas{
-        width: 100%;
-    }
-
+    
     .lola-presentacion h2{
         font-size: 25px;
     }
@@ -1163,6 +1141,13 @@ footer img {
     }
     .origen-basset div {
         height: 250px;
+    }
+    .contactos img{
+        height: 300px;
+        width: 40%;
+    }
+    .contactos div h1{
+        font-size: 35px;
     }
 }
 
@@ -1196,13 +1181,10 @@ footer img {
     .hero img{
         height: 300px;
     }
-    .chapas{
-        height: 180px;
+    .carrusel div img{
+        height: 140px;
     }
-    .chapas h2 {
-        font-size: 13px;
-    }
-
+    
     .little div  h3 { 
         font-size: 25px;
     }
