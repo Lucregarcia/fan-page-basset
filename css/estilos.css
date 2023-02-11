@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Yeon+Sung&display=swap");
+/*!RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*!INDEX*/
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+/*-----HEADER------*/
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header a img {
+    height: 100%;
+    width: 150px; }
+
+nav ul {
+  list-style: none;
+  padding: 0cm;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 30px;
+    color: #2c2b2b;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    padding: 0px 5px 0px 5px; }
+    nav ul li a:hover {
+      background-color: rgba(245, 192, 172, 0.808); }
+
+/*----MAIN-INDEX----*/
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .hero img {
+    width: 50%;
+    height: 650px;
+    margin: 15px; }
+  .hero div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .hero div h1 {
+      color: #e40e0e;
+      font: weight 450px;
+      font-size: 45px;
+      padding: 0px;
+      margin-bottom: 10px;
+      text-align: left; }
+    .hero div a {
+      font-size: 25px;
+      color: #f10b0b;
+      font-weight: bolder;
+      text-decoration: none;
+      margin-top: 15px;
+      transition: 2s;
+      text-align: center; }
+      .hero div a:hover {
+        transform: scale(1.2); }
+
+.proyecto {
+  background-color: rgba(245, 173, 217, 0.281); }
+  .proyecto h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dd114e;
+    font-size: 35px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 15px; }
+  .proyecto .tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 350px; }
+    .proyecto .tarjetas .little {
+      width: 45%;
+      height: 250px;
+      background-color: rgba(167, 34, 85, 0.589);
+      margin: 5px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-evenly;
+      box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75); }
+      .proyecto .tarjetas .little div {
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .proyecto .tarjetas .little div h3 {
+          color: #eae8ec;
+          font-size: 35px;
+          font-family: 'Yeon Sung', cursive;
+          font-weight: 100px;
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 10px; }
+        .proyecto .tarjetas .little div p {
+          color: black;
+          font-size: 25px;
+          font-family: 'Yeon Sung', cursive;
+          font-weight: lighter;
+          text-align: center; }
+      .proyecto .tarjetas .little a img {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 5px; }
+
+.carrusel div img {
+  width: 100%;
+  height: 380px; }
+
+/*----MAIN-NOSOTROS----*/
+.hero-nosotros {
+  /*background-image: url(../img/orejas.jpg)*/
+  background: linear-gradient(rgba(73, 73, 73, 0.281), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
+  width: 100%;
+  height: 73vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed; }
+  .hero-nosotros h1 {
+    font-size: 50px;
+    font-weight: 80px;
+    color: rgba(238, 231, 235, 0.904);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.lola {
+  width: 100%;
+  height: 600px;
+  background-color: #380303ad;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-attachment: fixed; }
+  .lola .lola-presentacion {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+    .lola .lola-presentacion h2 {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 45px;
+      text-align: center;
+      justify-content: center;
+      margin: 15px; }
+    .lola .lola-presentacion p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 30px;
+      margin: 15px 10px 15px 10px;
+      padding: 3px;
+      text-align: left; }
+  .lola .foto-lola img {
+    height: 500px;
+    width: 100%;
+    margin: 15px;
+    margin-top: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75); }
+
+.coco {
+  width: 100%;
+  height: 600px;
+  background-color: #5c78a16b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-attachment: fixed; }
+  .coco .fotococo img {
+    height: 500px;
+    width: 100%;
+    margin: 15px;
+    margin-top: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75); }
+
+/*------FOOTER------*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif; }
+  footer a img {
+    width: 200px;
+    height: 230px; }
+  footer .bassetlovers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .bassetlovers p {
+      font-size: 25px; }
+    footer .bassetlovers div img {
+      width: 70px;
+      height: 70px;
+      margin: 10px; }
+  footer .seguinos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .seguinos h2 {
+      font-size: 20px;
+      text-align: center; }
+    footer .seguinos a img {
+      width: 70%;
+      height: 70px;
+      margin: 10px;
+      transition: 1s; }
+      footer .seguinos a img:hover {
+        transform: scale(1.1); }
+
+@media screen and (max-width: 465px) {
+  nav ul {
+    flex-direction: column; } }
