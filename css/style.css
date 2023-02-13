@@ -415,7 +415,7 @@ footer img {
     }
 
 .anatomia div{
-    width: 80%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -452,6 +452,7 @@ footer img {
     color: white;
     margin-bottom: 10px;
 }
+
 .comportamiento p{
     text-align: justify;
     font-size: 20px;
@@ -466,18 +467,20 @@ footer img {
     align-items: center;
 }
 .cuidados div{
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
 .cuidados h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     margin: 10px;
     color: white;
     background-color: #4e17029f;
 }
 .cuidados p{
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     padding: 4px;
     margin: 15px;
@@ -485,19 +488,24 @@ footer img {
 .cuidados img{
     margin: 10px;
     width: 70%;
-    height: 700px;
+    height: 550px;
 }
 .alimentacion{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
 }
 .alimentacion h2{
     text-align: center;
     background-color: rgba(7, 7, 7, 0.836);
     color: #eae8ec;
-    height: 40px;
-    margin: 15px;
+    margin: 10px;
+    padding: 5px;
     font-size: 30PX;
+    width: 100%;
 }
 .alimentacion p{
     font-size: 25px;
@@ -510,7 +518,29 @@ footer img {
     justify-content: center;
     align-items: center;
 }
+.orejas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 
+.orejas h2{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: #4e17029f;
+    margin: 10px;
+    padding: 5px;
+}
+.orejas div{
+    width: 50%;
+}
+.orejas div p{
+    font-size: 25px;
+    text-align: justify;
+    
+}
 .video img{
     width: 40%;
     height: 450px;
