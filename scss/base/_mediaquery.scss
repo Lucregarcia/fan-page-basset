@@ -1,7 +1,477 @@
-@media screen and (max-width: 465px) {
-    nav {
-        ul{
-            flex-direction: column;
-        }   
+@media  screen and (max-width:1100px){
+    .origen-basset{
+        h2{
+            font-size: 30px;
+        }
+    }
+    .origen-basset{
+        div{
+            p{
+                font-size: 18px;
+            }
+        }
     }
 }
+@media  screen and (max-width:1000px){
+    .hero{
+        div{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    h3{
+                        font-size: 30px;
+                        font-weight:90px;
+                    }
+                }
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .anatomia{
+        img{
+            height: 300px;
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width:980px){
+    .galeria{
+        .grid-galeria{
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: 450px;
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                .img1{
+                    grid-column: span 2;
+                }
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                .img4{
+                    grid-column: span 2;
+                }
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                .img8{
+                    grid-row: span 2;
+                }
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                .img9{
+                    grid-row: span 2;
+                }
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                .img10{
+                    grid-row: span 2;
+                }
+            }
+        }
+    }
+    .origen-basset{
+        h2{
+            font-size: 27px;
+        }
+    }
+}
+
+@media screen and (max-width:900px){
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    h3{
+                        font-size: 26px;
+                        font-weight:85px;
+                    }
+                }
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                a{
+                    img{
+                        width: 180px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+    .hero-nosotros{
+        h1{
+            font-size: 40px;
+            font-weight: 70px;
+        }
+    }
+    .carrusel{
+        div{
+            img{
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+    .lola{
+        width: 100%;
+        height: 500px;
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:25px ;
+                margin: 10px;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                height:450px;
+                width:100%;
+                margin: 10px;
+            }
+        }
+    }
+    .contactos{
+        img{
+            width: 30%;
+            height: 350px; 
+        }
+    }
+}
+@media screen and (max-width:862px){
+    .hero{
+        div{
+            h1{
+                font-size: 38px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:840px){
+    .hero{
+        img{
+            height: 550px;
+            width: 45%;
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            grid-template-columns: 1fr;
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                grid-column: span 1;
+                grid-row: span 2;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img1{
+                grid-row:span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img3{
+                grid-row:span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img4{
+                grid-row:span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img11{
+                grid-row:span 1;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            h1{
+                font-size: 27px; 
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            p{
+                font-size: 23px; 
+            }
+        }
+    }
+    .bienvenidos{
+        img{
+            height: 600px;
+        }
+    }
+    .origen-basset{
+        h2{
+            font-size: 25px;
+        }
+    }
+    .origen-basset{
+        div{
+            p{
+                font-size: 16px;
+                padding: 3px;
+            }
+        }
+    }
+}
+@media screen and (max-width:800px){
+    .hero{
+        img{
+            height: 500px;
+            width: 45%;
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            height: 550px;
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                width: 75%;
+                height: 230px;
+                margin: 10px;
+                padding: 2px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    h3{
+                        font-size: 35px;
+                        font-weight:75px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            div{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            h2{
+                font-size: 15px;
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            a{
+                img{
+                    width:  75%;
+                    height: 65px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 780px){
+    .hero{
+        div{
+            h1{
+                width: 100%;
+                font-size:25px;
+            }
+        }
+    }
+    .hero{
+        div{
+            a{
+                font-size: 20px;
+                font-weight:bold ;
+            }
+        }
+    }
+    .proyecto{
+        h2{
+            font-size: 28px;
+        }
+    }
+    .hero-nosotros{
+        h1{
+            font-size: 35px;
+        }
+    }
+    .lola{
+        height: 450px;
+        justify-content: center;
+    }
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 40px;
+            }
+
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:22px ;
+                margin: 5px;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                height:350px;
+            }
+        }
+    }
+    .coco{
+        height: 500px;
+        justify-content: center;
+    }
+    .coco{
+        .fotococo{
+            img{
+                height:450px;
+                width:80%;
+                margin: 10px;
+            }
+        }
+    }
+    .origen-basset{
+        h2{
+            font-size: 23px;
+        }
+    }
+    .origen-basset{
+        div{
+            p{
+                font-size: 15px;
+                padding: 5px;
+            }
+        }
+    }
+    .contactos{
+        div{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+    .contactos{
+        img{
+            width: 45%;
+        }
+    }
+}
+
+
+
+
+
+
+
