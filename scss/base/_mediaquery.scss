@@ -468,10 +468,713 @@
         }
     }
 }
+@media screen and (max-width:750px){
+    .galeria{
+        .grid-galeria{
+            .img2{
+                grid-row:span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img5{
+                grid-row: span 2;
+            }
+        }
+    }
+    .anatomia{
+        div{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    .anatomia{
+        div{
+            p{
+                font-size: 18px;
+                margin: 10px;
+            }
+        }
+    }
+    .carrusel{
+        div{
+            img{
+                height: 280px;
+            }
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .origen-basset{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px;
+        height: 450px;
+    }
+    .origen-basset{
+        h2{
+            font-size: 35px;
+            text-align: center;
+            background-color: rgb(139, 42, 3);
+            color: white;
+            margin: 10px;
+        }
+    }
+    .origen-basset{
+        div{
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 5px;
+            padding: 5px;
+            height: 300px;
+        }
+    }
+}
+@media screen and (max-width:650px){
+    .carrusel{
+        div{
+            img{
+                height: 250px;
+            }
+        }
+    }
+    footer{
+        a{
+            img{
+                width: 160px;
+                height: 180px;
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            div{
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+                
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            h2{
+                font-size: 14px;
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            a{
+                img{
+                    width:  70%;
+                    height: 60px;
+                }
+            }
+        }
+    }
+    .hero-nosotros{
+        height: 68vh;
+    }
+    .hero-nosotros{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .coco{
+        height: 450px;
+    }
+    .coco{
+        .fotococo{
+            img{
+                height:400px;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            h1{
+                font-size: 24px;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            p{
+                font-size: 19px;
+            }
+        }
+    }
+    .bienvenidos{
+        img{
+            height: 550px;
+        }
+    }
+}
 
-
-
-
+@media screen and (max-width:615px){
+    .hero{
+        div{
+            h1{
+                font-size: 25px;
+            }
+        }
+    }
+    .proyecto{
+        h2{
+            font-size: 20px;
+        }
+    }
+    .carrusel{
+        div{
+            img{
+                height: 200px;
+            }
+        }
+    }
+    footer{
+        a{
+            img{
+                width: 140px;
+                height: 150px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                width: 90%;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:22px ;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                width:175px ;
+            }
+        }
+    }
+    .coco{
+        height: 350px
+    }
+    .coco{
+        .fotococo{
+            img{
+                height:300px;
+            }
+        }
+    }
+}
+@media screen and (max-width:550px){
+    .proyecto{
+        .tarjetas{
+            height: 480px;
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                height: 200px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    h3{
+                        font-size: 28px;
+                    }
+                }
+                
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 23px;
+                    }
+                }
+                
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            flex-direction: column;
+        }
+    }
+    footer{
+        .bassetlovers{
+            div{
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            h2{
+                font-size: 14px;
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            a{
+                img{
+                    width:  60%;
+                    height: 45px;
+                }
+            }
+        }
+    }
+    .hero-nosotros{
+        height: 60vh;
+    }
+    .hero-nosotros{
+        h1{
+            font-size: 25px;
+            font-weight: 60px
+        }
+    }
+    .lola{
+        height: 350px;
+    }
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:18px ;
+                margin: 10px;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                height: 300px;
+                width:180px ;
+            }
+        }
+    }
+    .coco{
+        height: 330px;
+    }
+    .coco{
+        .fotococo{
+            img{
+                height:260px;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            h1{
+                font-size: 22px;
+                margin: 7px;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            p{
+                font-size: 17px;
+                margin: 7px;
+                padding: 2px;
+            }
+        }
+    }
+    .bienvenidos{
+        img{
+            height: 500px;
+            width: 50%;
+        }
+    }
+    .anatomia{
+        div{
+            width: 90%;
+        }
+    }
+    .anatomia{
+        img{
+            height: 200px;
+        }
+    }
+    .contactos{
+        img{
+            width: 40%;
+        }
+    }
+    .contactos{
+        div{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .carrusel{
+        div{
+            img{
+                height: 160px;
+            }
+        }
+    }
+    footer{
+        flex-direction:column;
+    }
+    footer{
+        .bassetlovers{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+        }
+    }
+    footer{
+        .bassetlovers{
+            p{
+                font-size: 25px
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            margin: 15px;
+        }
+    }
+    footer{
+        .seguinos{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    footer{
+        .seguinos{
+            a{
+                img{
+                    margin: 10px;
+                    width:  60%;
+                    height: 60px;
+                }
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+    .bienvenidos{
+        div{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .bienvenidos{
+        img{
+            height: 450px;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .hero{
+        img{
+            height: 350px;
+        }
+    }
+    .hero{
+        div{
+            h1{
+                font-size: 20px;
+                padding: 4px
+            }
+        }
+    }
+    .hero{
+        div{
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img5{
+                grid-row: span 1;
+            }
+        }
+    }  
+    .galeria{
+        .grid-galeria{
+            .img10{
+                grid-row: span 1;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .img11{
+                width: 464px;
+                height: 440px;
+            }
+        }
+    }
+    .anatomia{
+        div{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .comportamiento{
+        div{
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 465px){
+    nav{
+        ul{
+            flex-direction: column;
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            width: 100%;
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:17px ;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                height: 250px;
+                width:160px ;
+            }
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            width: 100%;
+        }
+    }
+    .origen-basset{
+        height: 350px;
+    }
+    .origen-basset{
+        h2{
+            font-size: 30px;
+            margin: 5px;
+        }
+    }
+    .origen-basset{
+        div{
+            height: 250px;
+        }
+    }
+    .contactos{
+        img{
+            height: 300px;
+            width: 40%;
+        }
+    }
+    .contactos{
+        div{
+            h1{
+                font-size: 35px;
+            }
+        }
+    }
+}
+@media screen and (max-width:440px){
+    .hero-nosotros{
+        h1{
+            font-size: 22px;
+        }
+    }
+    .lola{
+        height: 300px;
+    }
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 23px;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:14px;
+                margin: 5px;
+            }
+        }
+    }
+    .lola{
+        .foto-lola{
+            img{
+                height: 250px;
+                width:160px ;
+            }
+        }
+    }
+    .coco{
+        height: 300px;
+    }
+}
+@media screen and (max-width:410px){
+    .hero{
+        img{
+            height: 300px;
+        }
+    }
+    .carrusel{
+        div{
+            img{
+                height: 140px;
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    h3{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .proyecto{
+        .tarjetas{
+            .little{
+                div{
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .galeria{
+        h2{
+            font-size: 40px;
+        }
+    }
+    .origen-basset{
+        height: 400px;
+    }
+    .origen-basset{
+        h2{
+            font-size: 25px;
+            margin: 0px;
+        }
+    }
+    .origen-basset{
+        div{
+            height: 300px;
+        }
+    }
+}
+@media screen and (max-width:400px){
+    .hero-nosotros{
+        h1{
+            font-size: 20px;
+        }
+    }
+    .galeria{
+        .grid-galeria{
+            .grid-item{
+                grid-row: span 1;
+            }
+        }
+    }
+}
 
 
 
