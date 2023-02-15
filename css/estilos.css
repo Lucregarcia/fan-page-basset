@@ -158,7 +158,7 @@ nav ul {
   height: 600px;
   background-color: #380303ad;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-attachment: fixed; }
   .lola .lola-presentacion {
@@ -176,11 +176,10 @@ nav ul {
       font-size: 30px;
       margin: 15px 10px 15px 10px;
       padding: 3px;
-      text-align: left; }
+      text-align: justify; }
   .lola .foto-lola img {
     height: 500px;
     width: 100%;
-    margin: 15px;
     margin-top: 1px;
     box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
@@ -191,13 +190,11 @@ nav ul {
   height: 600px;
   background-color: #5c78a16b;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-attachment: fixed; }
+  justify-content: space-around;
+  align-items: center; }
   .coco .fotococo img {
     height: 500px;
     width: 100%;
-    margin: 15px;
     margin-top: 1px;
     box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
@@ -217,7 +214,7 @@ nav ul {
       font-size: 30px;
       margin: 15px 10px 15px 10px;
       padding: 3px;
-      text-align: left; }
+      text-align: justify; }
 
 .galeria h2 {
   margin-bottom: 10px;
@@ -457,7 +454,7 @@ nav ul {
     margin: 10px 10px 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: left; }
+    justify-content: center; }
 
 .boton {
   display: flex;
@@ -529,15 +526,15 @@ footer {
   .galeria .grid-galeria .grid-item {
     grid-column: span 1;
     grid-row: span 1; }
-  .galeria .grid-galeria .grid-item .img1 {
+  .galeria .grid-galeria .img1 {
     grid-column: span 2; }
-  .galeria .grid-galeria .grid-item .img4 {
+  .galeria .grid-galeria .img4 {
     grid-column: span 2; }
-  .galeria .grid-galeria .grid-item .img8 {
+  .galeria .grid-galeria .img8 {
     grid-row: span 2; }
-  .galeria .grid-galeria .grid-item .img9 {
+  .galeria .grid-galeria .img9 {
     grid-row: span 2; }
-  .galeria .grid-galeria .grid-item .img10 {
+  .galeria .grid-galeria .img10 {
     grid-row: span 2; }
   .origen-basset h2 {
     font-size: 27px; } }
@@ -564,6 +561,16 @@ footer {
     font-size: 25px;
     margin: 10px; }
   .lola .foto-lola img {
+    height: 450px;
+    width: 100%;
+    margin: 10px; }
+  .coco {
+    width: 100%;
+    height: 500px; }
+  .coco .lola-presentacion p {
+    font-size: 25px;
+    margin: 10px; }
+  .coco .fotococo img {
     height: 450px;
     width: 100%;
     margin: 10px; }
@@ -649,8 +656,7 @@ footer {
   .hero-nosotros h1 {
     font-size: 35px; }
   .lola {
-    height: 450px;
-    justify-content: center; }
+    height: 450px; }
   .lola .lola-presentacion h2 {
     font-size: 40px; }
   .lola .lola-presentacion p {
@@ -659,12 +665,14 @@ footer {
   .lola .foto-lola img {
     height: 350px; }
   .coco {
-    height: 500px;
-    justify-content: center; }
+    height: 450px; }
+  .coco .lola-presentacion h2 {
+    font-size: 40px; }
+  .coco .lola-presentacion p {
+    font-size: 22px;
+    margin: 5px; }
   .coco .fotococo img {
-    height: 450px;
-    width: 80%;
-    margin: 10px; }
+    height: 350px; }
   .origen-basset h2 {
     font-size: 23px; }
   .origen-basset div p {
@@ -707,7 +715,10 @@ footer {
     width: 100%;
     margin: 5px;
     padding: 5px;
-    height: 300px; } }
+    height: 300px; }
+  .coco .fotococo img {
+    width: 260px;
+    height: 400px; } }
 
 @media screen and (max-width: 650px) {
   .carrusel div img {
@@ -731,8 +742,6 @@ footer {
     font-size: 30px; }
   .coco {
     height: 450px; }
-  .coco .fotococo img {
-    height: 400px; }
   .bienvenidos div h1 {
     font-size: 24px; }
   .bienvenidos div p {
@@ -760,7 +769,12 @@ footer {
     width: 175px; }
   .coco {
     height: 350px; }
+  .coco .lola-presentacion h2 {
+    font-size: 35px; }
+  .coco .lola-presentacion p {
+    font-size: 20px; }
   .coco .fotococo img {
+    width: 200px;
     height: 300px; } }
 
 @media screen and (max-width: 550px) {
@@ -801,7 +815,12 @@ footer {
     height: 300px;
     width: 180px; }
   .coco {
-    height: 330px; }
+    height: 350px; }
+  .coco .lola-presentacion h2 {
+    font-size: 30px; }
+  .coco .lola-presentacion p {
+    font-size: 18px;
+    margin: 10px; }
   .coco .fotococo img {
     height: 260px; }
   .bienvenidos div h1 {
@@ -826,6 +845,22 @@ footer {
 @media screen and (max-width: 500px) {
   .carrusel div img {
     height: 160px; }
+  .lola .lola-presentacion h2 {
+    font-size: 20px;
+    margin: 5px; }
+  .lola .lola-presentacion p {
+    font-size: 15px;
+    margin: 5px; }
+  .coco {
+    height: 350px; }
+  .coco .lola-presentacion h2 {
+    font-size: 20px;
+    margin: 5px; }
+  .coco .lola-presentacion p {
+    font-size: 15px;
+    margin: 5px; }
+  .coco .fotococo img {
+    height: 280px; }
   footer {
     flex-direction: column; }
   footer .bassetlovers {
@@ -879,14 +914,20 @@ footer {
     width: 100%; }
   .proyecto .tarjetas .little div p {
     font-size: 20px; }
-  .lola .lola-presentacion h2 {
-    font-size: 25px; }
-  .lola .lola-presentacion p {
-    font-size: 17px; }
   .lola .foto-lola img {
     height: 250px;
     width: 160px; }
-  .galeria .grid-galeria {
+  .coco {
+    height: 350px; }
+  .coco .lola-presentacion h2 {
+    font-size: 20px;
+    margin: 5px; }
+  .coco .lola-presentacion p {
+    font-size: 13px; }
+  .coco .fotococo img {
+    width: 180px;
+    height: 250px; }
+  .galeria .grid-galeria .grid-item {
     width: 100%; }
   .origen-basset {
     height: 350px; }
@@ -906,16 +947,14 @@ footer {
     font-size: 22px; }
   .lola {
     height: 300px; }
-  .lola .lola-presentacion h2 {
-    font-size: 23px; }
-  .lola .lola-presentacion p {
-    font-size: 14px;
-    margin: 5px; }
+  .coco {
+    height: 300px; }
   .lola .foto-lola img {
     height: 250px;
     width: 160px; }
-  .coco {
-    height: 300px; } }
+  .coco .fotococo img {
+    width: 150px;
+    height: 240px; } }
 
 @media screen and (max-width: 410px) {
   .hero img {

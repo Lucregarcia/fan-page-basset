@@ -67,49 +67,41 @@
     }
     .galeria{
         .grid-galeria{
-            .grid-item{
-                .img1{
-                    grid-column: span 2;
-                }
+            .img1{
+                grid-column: span 2;
             }
         }
     }
     .galeria{
         .grid-galeria{
-            .grid-item{
-                .img4{
-                    grid-column: span 2;
-                }
+            .img4{
+                grid-column: span 2;
+            }
+        }
+    }
+    
+    .galeria{
+        .grid-galeria{
+            .img8{
+                grid-row: span 2;
             }
         }
     }
     .galeria{
         .grid-galeria{
-            .grid-item{
-                .img8{
-                    grid-row: span 2;
-                }
+            .img9{
+                grid-row: span 2;
             }
         }
     }
     .galeria{
         .grid-galeria{
-            .grid-item{
-                .img9{
-                    grid-row: span 2;
-                }
+            .img10{
+                grid-row: span 2;
             }
         }
     }
-    .galeria{
-        .grid-galeria{
-            .grid-item{
-                .img10{
-                    grid-row: span 2;
-                }
-            }
-        }
-    }
+    
     .origen-basset{
         h2{
             font-size: 27px;
@@ -181,6 +173,27 @@
     }
     .lola{
         .foto-lola{
+            img{
+                height:450px;
+                width:100%;
+                margin: 10px;
+            }
+        }
+    }
+    .coco{
+        width: 100%;
+        height: 500px;
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:25px ;
+                margin: 10px;
+            }
+        }
+    }
+    .coco{
+        .fotococo{
             img{
                 height:450px;
                 width:100%;
@@ -404,14 +417,12 @@
     }
     .lola{
         height: 450px;
-        justify-content: center;
     }
     .lola{
         .lola-presentacion{
             h2{
                 font-size: 40px;
             }
-
         }
     }
     .lola{
@@ -430,15 +441,27 @@
         }
     }
     .coco{
-        height: 500px;
-        justify-content: center;
+        height: 450px;
+    }
+    .coco{
+        .lola-presentacion{
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:22px ;
+                margin: 5px;
+            }
+        }
     }
     .coco{
         .fotococo{
             img{
-                height:450px;
-                width:80%;
-                margin: 10px;
+                height:350px;
             }
         }
     }
@@ -533,6 +556,14 @@
             height: 300px;
         }
     }
+    .coco{
+        .fotococo{
+            img{
+                width:260px;
+                height:400px;
+            }
+        }
+    }
 }
 @media screen and (max-width:650px){
     .carrusel{
@@ -595,13 +626,6 @@
     }
     .coco{
         height: 450px;
-    }
-    .coco{
-        .fotococo{
-            img{
-                height:400px;
-            }
-        }
     }
     .bienvenidos{
         div{
@@ -684,8 +708,23 @@
         height: 350px
     }
     .coco{
+        .lola-presentacion{
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:20px ;
+            }
+        }
+    }
+    .coco{
         .fotococo{
             img{
+                width:200px;
                 height:300px;
             }
         }
@@ -809,7 +848,22 @@
         }
     }
     .coco{
-        height: 330px;
+        height: 350px;
+    }
+    .coco{
+        .lola-presentacion{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:18px ;
+                margin: 10px;
+            }
+        }
     }
     .coco{
         .fotococo{
@@ -869,6 +923,50 @@
         div{
             img{
                 height: 160px;
+            }
+        }
+    }
+    
+    .lola{
+        .lola-presentacion{
+            h2{
+                font-size: 20px;
+                margin: 5px;
+            }
+        }
+    }
+    .lola{
+        .lola-presentacion{
+            p{
+                font-size:15px ;
+                margin: 5px;
+            }
+        }
+    }
+    
+    .coco{
+        height: 350px;
+    }
+    .coco{
+        .lola-presentacion{
+            h2{
+                font-size: 20px;
+                margin: 5px;
+            }
+        }
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:15px ;
+                margin: 5px;
+            }
+        }
+    }
+    .coco{
+        .fotococo{
+            img{
+                height:280px;
             }
         }
     }
@@ -1015,20 +1113,7 @@
             }
         }
     }
-    .lola{
-        .lola-presentacion{
-            h2{
-                font-size: 25px;
-            }
-        }
-    }
-    .lola{
-        .lola-presentacion{
-            p{
-                font-size:17px ;
-            }
-        }
-    }
+    
     .lola{
         .foto-lola{
             img{
@@ -1037,9 +1122,37 @@
             }
         }
     }
+    .coco{
+        height: 350px;
+    }
+    .coco{
+        .lola-presentacion{
+            h2{
+                font-size: 20px;
+                margin: 5px;
+            }
+        }
+    }
+    .coco{
+        .lola-presentacion{
+            p{
+                font-size:13px;
+            }
+        }
+    }
+    .coco{
+        .fotococo{
+            img{
+                width:180px ;
+                height:250px;
+            }
+        }
+    }
     .galeria{
         .grid-galeria{
-            width: 100%;
+            .grid-item{
+                width: 100%;
+            }
         }
     }
     .origen-basset{
@@ -1079,21 +1192,10 @@
     .lola{
         height: 300px;
     }
-    .lola{
-        .lola-presentacion{
-            h2{
-                font-size: 23px;
-            }
-        }
+    .coco{
+        height: 300px;
     }
-    .lola{
-        .lola-presentacion{
-            p{
-                font-size:14px;
-                margin: 5px;
-            }
-        }
-    }
+    
     .lola{
         .foto-lola{
             img{
@@ -1103,7 +1205,12 @@
         }
     }
     .coco{
-        height: 300px;
+        .fotococo{
+            img{
+                width:150px ;
+                height:240px;
+            }
+        }
     }
 }
 @media screen and (max-width:410px){
