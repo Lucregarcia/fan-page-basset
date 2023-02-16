@@ -454,7 +454,7 @@ nav ul {
     margin: 10px 10px 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: left; }
 
 .boton {
   display: flex;
@@ -505,7 +505,11 @@ footer {
   .origen-basset h2 {
     font-size: 30px; }
   .origen-basset div p {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .orejas h2 {
+    font-size: 25px; }
+  .orejas div p {
+    font-size: 20px; } }
 
 @media screen and (max-width: 1000px) {
   .hero div h1 {
@@ -574,15 +578,29 @@ footer {
     height: 450px;
     width: 100%;
     margin: 10px; }
+  .cuidados div h1 {
+    font-size: 30px; }
+  .cuidados div p {
+    font-size: 20px; }
+  .cuidados img {
+    height: 500px;
+    width: 50%; }
   .contactos img {
     width: 30%;
-    height: 350px; } }
+    height: 350px; }
+  .orejas h2 {
+    font-size: 20px; }
+  .orejas div p {
+    font-size: 17px; } }
 
 @media screen and (max-width: 862px) {
   .hero div h1 {
     font-size: 38px; }
   .proyecto .tarjetas .little div p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .alimentacion p {
+    font-size: 20px;
+    margin: 15px; } }
 
 @media screen and (max-width: 840px) {
   .hero img {
@@ -678,6 +696,14 @@ footer {
   .origen-basset div p {
     font-size: 15px;
     padding: 5px; }
+  .video img {
+    height: 400px;
+    width: 35%;
+    margin: 10px; }
+  .video iframe {
+    height: 250px;
+    width: 35%;
+    margin: 15px; }
   .contactos div h1 {
     font-size: 45px; }
   .contactos img {
@@ -693,6 +719,15 @@ footer {
   .anatomia div p {
     font-size: 18px;
     margin: 10px; }
+  .orejas {
+    flex-direction: column; }
+  .orejas h2 {
+    width: 100%; }
+  .orejas div {
+    width: 100%; }
+  .orejas div p {
+    font-size: 20px;
+    margin: 15px; }
   .carrusel div img {
     height: 280px; } }
 
@@ -718,7 +753,13 @@ footer {
     height: 300px; }
   .coco .fotococo img {
     width: 260px;
-    height: 400px; } }
+    height: 400px; }
+  .alimentacion h2 {
+    font-size: 20px; }
+  .video img {
+    height: 350px; }
+  .video iframe {
+    height: 250px; } }
 
 @media screen and (max-width: 650px) {
   .carrusel div img {
@@ -747,7 +788,18 @@ footer {
   .bienvenidos div p {
     font-size: 19px; }
   .bienvenidos img {
-    height: 550px; } }
+    height: 550px; }
+  .cuidados div h1 {
+    font-size: 25px; }
+  .cuidados div p {
+    font-size: 17px; }
+  .cuidados img {
+    height: 400px; }
+  .alimentacion p {
+    font-size: 17px;
+    margin: 10px; }
+  .orejas div p {
+    font-size: 17px; } }
 
 @media screen and (max-width: 615px) {
   .hero div h1 {
@@ -833,10 +885,24 @@ footer {
   .bienvenidos img {
     height: 500px;
     width: 50%; }
+  .cuidados div h1 {
+    font-size: 20px; }
+  .cuidados div p {
+    font-size: 15px; }
+  .cuidados img {
+    height: 350px;
+    width: 40%; }
   .anatomia div {
     width: 90%; }
   .anatomia img {
     height: 200px; }
+  .video {
+    flex-direction: column; }
+  .video img {
+    height: 250px; }
+  .video iframe {
+    height: 300px;
+    width: 80%; }
   .contactos img {
     width: 40%; }
   .contactos div h1 {
@@ -885,7 +951,14 @@ footer {
   .bienvenidos div p {
     font-size: 15px; }
   .bienvenidos img {
-    height: 450px; } }
+    height: 450px; }
+  .cuidados div h1 {
+    font-size: 17px; }
+  .cuidados div p {
+    font-size: 13px; }
+  .cuidados img {
+    height: 250px;
+    width: 35%; } }
 
 @media screen and (max-width: 480px) {
   .hero img {
