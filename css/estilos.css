@@ -10,6 +10,11 @@
 body {
   font-family: 'Quicksand', sans-serif; }
 
+.hero, .hero-nosotros, .hero-nosotros h1, .bienvenidos div, .cuidados, .alimentacion, .orejas, .video, .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*-----HEADER------*/
 header {
   background-color: white;
@@ -41,36 +46,33 @@ nav ul {
       color: #2c2b2b; }
 
 /*----MAIN-INDEX----*/
-.hero {
+.hero img {
+  width: 50%;
+  height: 650px;
+  margin: 15px; }
+
+.hero div {
+  width: 50%;
   display: flex;
-  justify-content: center;
-  align-items: center; }
-  .hero img {
-    width: 50%;
-    height: 650px;
-    margin: 15px; }
-  .hero div {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column; }
-    .hero div h1 {
-      color: #e40e0e;
-      font: weight 450px;
-      font-size: 45px;
-      padding: 0px;
-      margin-bottom: 10px;
-      text-align: left; }
-    .hero div a {
-      font-size: 25px;
-      color: #f10b0b;
-      font-weight: bolder;
-      text-decoration: none;
-      margin-top: 15px;
-      transition: 2s;
-      text-align: center; }
-      .hero div a:hover {
-        transform: scale(1.2); }
+  align-items: center;
+  flex-direction: column; }
+  .hero div h1 {
+    color: #e40e0e;
+    font: weight 450px;
+    font-size: 45px;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: left; }
+  .hero div a {
+    font-size: 25px;
+    color: #e40e0e;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 2s;
+    text-align: center; }
+    .hero div a:hover {
+      transform: scale(1.2); }
 
 .proyecto {
   background-color: rgba(245, 173, 217, 0.281); }
@@ -138,20 +140,14 @@ nav ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background-attachment: fixed; }
   .hero-nosotros h1 {
     font-size: 50px;
     font-weight: 80px;
     color: rgba(238, 231, 235, 0.904);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    text-align: center; }
 
 .lola {
   width: 100%;
@@ -258,10 +254,7 @@ nav ul {
   margin-top: 10px;
   width: 100%; }
   .bienvenidos div {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #b1622d96; }
     .bienvenidos div h1 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -344,10 +337,7 @@ nav ul {
 
 /*----CUIDADOS----*/
 .cuidados {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  width: 100%; }
   .cuidados div {
     display: flex;
     flex-direction: column;
@@ -369,15 +359,12 @@ nav ul {
     height: 600px; }
 
 .alimentacion {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 15px; }
   .alimentacion h2 {
     text-align: center;
     background-color: rgba(7, 7, 7, 0.836);
-    color: #eae8ec;
+    color: white;
     margin: 10px;
     padding: 5px;
     font-size: 30PX;
@@ -389,9 +376,6 @@ nav ul {
     text-align: justify; }
 
 .orejas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 10px; }
   .orejas h2 {
     text-align: center;
@@ -406,18 +390,15 @@ nav ul {
       font-size: 25px;
       text-align: justify; }
 
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .video img {
-    width: 40%;
-    height: 450px;
-    margin: 20px; }
-  .video iframe {
-    height: 300px;
-    width: 40%;
-    margin: 15px; }
+.video img {
+  width: 40%;
+  height: 450px;
+  margin: 20px; }
+
+.video iframe {
+  height: 300px;
+  width: 40%;
+  margin: 15px; }
 
 /*CONTACTO*/
 .contactos {
@@ -456,15 +437,12 @@ nav ul {
     flex-direction: column;
     justify-content: left; }
 
-.boton {
-  display: flex;
-  justify-content: center; }
-  .boton input {
-    font-size: 18px;
-    padding: 5px;
-    margin: 10px;
-    color: #f0efef;
-    background-color: rgba(129, 13, 52, 0.733); }
+.boton input {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+  color: #f0efef;
+  background-color: rgba(129, 13, 52, 0.733); }
 
 /*------FOOTER------*/
 footer {

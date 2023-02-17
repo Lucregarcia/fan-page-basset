@@ -1,0 +1,30 @@
+//--LISTAS--/
+$colores:
+#e40e0e,
+#dd114e,
+#eae8ec,
+#e0baba,
+rgba(238, 231, 235, 0.904),
+white,
+#0f0f0f,
+rgb(224, 186, 186);
+
+//EXTEND
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//MIXIN
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+
+
+
+
