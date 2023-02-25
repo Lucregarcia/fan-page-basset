@@ -47,8 +47,8 @@ nav ul {
 
 /*----MAIN-INDEX----*/
 .hero img {
-  width: 50%;
-  height: 650px;
+  width: 45%;
+  height: 600px;
   margin: 15px; }
 
 .hero div {
@@ -58,11 +58,10 @@ nav ul {
   flex-direction: column; }
   .hero div h1 {
     color: #e40e0e;
-    font: weight 450px;
+    font-weight: 450px;
     font-size: 45px;
-    padding: 0px;
     margin-bottom: 10px;
-    text-align: left; }
+    text-align: center; }
   .hero div a {
     font-size: 25px;
     color: #e40e0e;
@@ -74,58 +73,61 @@ nav ul {
     .hero div a:hover {
       transform: scale(1.2); }
 
-.proyecto {
-  background-color: rgba(245, 173, 217, 0.281); }
-  .proyecto h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #dd114e;
-    font-size: 35px;
-    text-align: center;
-    font-weight: lighter;
-    padding: 15px; }
-  .proyecto .tarjetas {
+.proyecto h2 {
+  background-color: rgba(60, 110, 3, 0.781);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 15px; }
+
+.proyecto .tarjetas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 350px; }
+  .proyecto .tarjetas .little {
+    width: 45%;
+    height: 250px;
+    background-color: rgba(172, 49, 59, 0.808);
+    margin: 5px;
+    padding: 5px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 350px; }
-    .proyecto .tarjetas .little {
-      width: 45%;
-      height: 250px;
-      background-color: rgba(167, 34, 85, 0.589);
-      margin: 5px;
-      padding: 5px;
-      display: flex;
-      justify-content: space-evenly;
-      box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
-      -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
-      -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75); }
-      .proyecto .tarjetas .little div {
-        width: 50%;
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .proyecto .tarjetas .little div h3 {
-          color: #eae8ec;
-          font-size: 35px;
-          font-family: 'Yeon Sung', cursive;
-          font-weight: 100px;
-          text-align: center;
-          margin-top: 10px;
-          margin-bottom: 10px; }
-        .proyecto .tarjetas .little div p {
-          color: black;
-          font-size: 25px;
-          font-family: 'Yeon Sung', cursive;
-          font-weight: lighter;
-          text-align: center; }
-      .proyecto .tarjetas .little a img {
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 5px; }
+    box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75);
+    transition: 1s; }
+    .proyecto .tarjetas .little:hover {
+      transform: scale(1.1); }
+    .proyecto .tarjetas .little div {
+      width: 50%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .proyecto .tarjetas .little div h3 {
+        color: #eae8ec;
+        font-size: 35px;
+        font-family: 'Yeon Sung', cursive;
+        font-weight: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .proyecto .tarjetas .little div p {
+        color: black;
+        font-size: 25px;
+        font-family: 'Yeon Sung', cursive;
+        font-weight: lighter;
+        text-align: center; }
+    .proyecto .tarjetas .little a img {
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 5px; }
 
 .carrusel div img {
   width: 100%;
@@ -134,7 +136,7 @@ nav ul {
 /*----MAIN-NOSOTROS----*/
 .hero-nosotros {
   /*background-image: url(../img/orejas.jpg)*/
-  background: linear-gradient(rgba(73, 73, 73, 0.281), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
+  background: linear-gradient(rgba(31, 1, 1, 0.315), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
   width: 100%;
   height: 73vh;
   background-repeat: no-repeat;
@@ -146,31 +148,34 @@ nav ul {
   .hero-nosotros h1 {
     font-size: 50px;
     font-weight: 80px;
-    color: rgba(238, 231, 235, 0.904);
+    color: white;
     text-align: center; }
 
 .lola {
+  background-color: black;
   width: 100%;
   height: 600px;
-  background-color: #380303ad;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  background-attachment: fixed; }
+  align-items: center; }
   .lola .lola-presentacion {
     width: 50%;
     display: flex;
     flex-direction: column; }
     .lola .lola-presentacion h2 {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #0f0f0f;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 45px;
       text-align: center;
       justify-content: center;
-      margin: 15px; }
+      background-color: #e0baba;
+      width: 90%;
+      margin-bottom: 20px; }
     .lola .lola-presentacion p {
+      color: white;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 30px;
-      margin: 15px 10px 15px 10px;
+      margin: 10px;
       padding: 3px;
       text-align: justify; }
   .lola .foto-lola img {
@@ -182,9 +187,9 @@ nav ul {
     -moz-box-shadow: 10px 10px 5px 0px rgba(158, 146, 146, 0.75); }
 
 .coco {
+  background-color: black;
   width: 100%;
   height: 600px;
-  background-color: #5c78a16b;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -200,15 +205,19 @@ nav ul {
     display: flex;
     flex-direction: column; }
     .coco .lola-presentacion h2 {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 45px;
       text-align: center;
       justify-content: center;
-      margin: 15px; }
+      color: #0f0f0f;
+      background-color: #e0baba;
+      width: 90%;
+      margin-bottom: 20px; }
     .coco .lola-presentacion p {
+      color: white;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 30px;
-      margin: 15px 10px 15px 10px;
+      margin: 10px;
       padding: 3px;
       text-align: justify; }
 
@@ -401,41 +410,25 @@ nav ul {
   margin: 15px; }
 
 /*CONTACTO*/
-.contactos {
-  width: 100%;
-  height: 450px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #662702d3;
-  margin-top: 10px; }
-  .contactos div {
-    width: 50%; }
-    .contactos div h1 {
-      color: #e0baba;
-      font-size: 55px;
-      text-align: center;
-      margin: 5px; }
-  .contactos img {
-    width: 25%;
-    height: 400px; }
-
 .formulario {
-  color: #a85e5e;
-  background-color: #f5dcdc; }
+  color: #f0eaea;
+  background: linear-gradient(rgba(49, 28, 28, 0.685), rgba(73, 74, 75, 0.253)), url("../img/fondo-contacto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
   .formulario h2 {
     font-size: 35px;
     font-weight: 50px;
     padding: 15px;
-    text-align: center; }
+    text-align: center;
+    margin: 20px; }
   .formulario .formularioComponente {
-    width: 60%;
     font-size: 25px;
     padding: 5px;
     margin: 10px 10px 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: left; }
+    width: 60%; }
 
 .boton input {
   font-size: 18px;
@@ -458,7 +451,7 @@ footer {
     justify-content: space-between;
     align-items: center; }
     footer .bassetlovers p {
-      font-size: 25px; }
+      font-size: 20px; }
     footer .bassetlovers div img {
       width: 70px;
       height: 70px;
@@ -487,7 +480,11 @@ footer {
   .orejas h2 {
     font-size: 25px; }
   .orejas div p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .boton input {
+    display: flex;
+    justify-content: left;
+    align-items: center; } }
 
 @media screen and (max-width: 1000px) {
   .hero div h1 {
@@ -563,9 +560,6 @@ footer {
   .cuidados img {
     height: 500px;
     width: 50%; }
-  .contactos img {
-    width: 30%;
-    height: 350px; }
   .orejas h2 {
     font-size: 20px; }
   .orejas div p {
@@ -681,11 +675,7 @@ footer {
   .video iframe {
     height: 250px;
     width: 35%;
-    margin: 15px; }
-  .contactos div h1 {
-    font-size: 45px; }
-  .contactos img {
-    width: 45%; } }
+    margin: 15px; } }
 
 @media screen and (max-width: 750px) {
   .galeria .grid-galeria .img2 {
@@ -880,11 +870,7 @@ footer {
     height: 250px; }
   .video iframe {
     height: 300px;
-    width: 80%; }
-  .contactos img {
-    width: 40%; }
-  .contactos div h1 {
-    font-size: 40px; } }
+    width: 80%; } }
 
 @media screen and (max-width: 500px) {
   .carrusel div img {
@@ -986,12 +972,7 @@ footer {
     font-size: 30px;
     margin: 5px; }
   .origen-basset div {
-    height: 250px; }
-  .contactos img {
-    height: 300px;
-    width: 40%; }
-  .contactos div h1 {
-    font-size: 35px; } }
+    height: 250px; } }
 
 @media screen and (max-width: 440px) {
   .hero-nosotros h1 {

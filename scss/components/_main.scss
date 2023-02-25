@@ -2,8 +2,8 @@
 .hero{
     @extend %flex;
     img{
-        width: 50%;
-        height: 650px;
+        width: 45%;
+        height: 600px;
         margin: 15px;
     }
     div{
@@ -13,11 +13,10 @@
         flex-direction: column;
         h1{
             color: nth($colores, 1);
-            font: weight 450px;
+            font-weight: 450px;
             font-size:45px;
-            padding: 0px;
             margin-bottom: 10px;
-            text-align: left;
+            text-align: center;
         }
         a{
             font-size: 25px;
@@ -35,10 +34,10 @@
 }
 
 .proyecto{
-    background-color: rgba(245, 173, 217, 0.281);
     h2{
+        background-color:  rgba(60, 110, 3, 0.781);
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: nth($colores, 2);
+        color: nth($colores, 6);
         font-size: 35px;
         text-align: center;
         font-weight: lighter;
@@ -51,7 +50,7 @@
         .little{
             width: 45%;
             height: 250px;
-            background-color: rgba(167, 34, 85, 0.589);
+            background-color: rgba(172, 49, 59, 0.808);
             margin: 5px;
             padding: 5px;
             display: flex;
@@ -59,7 +58,10 @@
             box-shadow: 10px 10px 5px 0px rgba(223, 136, 136, 0.75);
             -webkit-box-shadow: 10px 10px 5px 0px rgba(158,146,146,0.75);
             -moz-box-shadow: 10px 10px 5px 0px rgba(158,146,146,0.75);
-            
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
             div{
                 width: 50%;
                 height: 100%;
@@ -107,7 +109,7 @@
 /*----MAIN-NOSOTROS----*/
 .hero-nosotros{
     /*background-image: url(../img/orejas.jpg)*/ 
-    background: linear-gradient(rgba(73, 73, 73, 0.281), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
+    background: linear-gradient(rgba(31, 1, 1, 0.315), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
     width: 100%;
     height: 73vh;
     background-repeat: no-repeat;
@@ -120,33 +122,36 @@
     h1{
         font-size: 50px;
         font-weight: 80px;
-        color: nth($colores, 5 );
+        color: nth($colores, 6 );
         text-align: center;
         @extend %flex;
     }
 }
 
 .lola{
+    background-color: black;
     width: 100%;
     height: 600px;
-    background-color: #380303ad;
     @include flex (flex, space-around, center);
-    background-attachment: fixed;
     .lola-presentacion{
         width: 50%;
         display: flex;
         flex-direction: column;
         h2{
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: nth($colores, 7 );
+            font-family:Arial, Helvetica, sans-serif;
             font-size: 45px;
             text-align: center;
             justify-content: center;
-            margin: 15px;
+            background-color: nth($colores, 4 );
+            width: 90%;
+            margin-bottom: 20px;
         }
         p{
+            color: nth($colores, 6 );
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size:30px ;
-            margin: 15px 10px 15px 10px; 
+            margin: 10px; 
             padding: 3px;
             text-align: justify;
         }
@@ -165,9 +170,9 @@
 }
 
 .coco{
+    background-color: black;
     width: 100%;
     height: 600px;
-    background-color: #5c78a16b;
     @include flex (flex, space-around, center);
     .fotococo{
         img{
@@ -184,16 +189,20 @@
         display: flex;
         flex-direction: column;
         h2{
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 45px;
             text-align: center;
             justify-content: center;
-            margin: 15px;
+            color: nth($colores, 7 );
+            background-color: nth($colores, 4 );
+            width: 90%;
+            margin-bottom: 20px;
         }
         p{
+            color: nth($colores, 6 );
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size:30px ;
-            margin: 15px 10px 15px 10px; 
+            margin: 10px; 
             padding: 3px;
             text-align: justify;
         }
@@ -436,43 +445,26 @@
 
 /*CONTACTO*/
 
-.contactos{
-    width: 100%;
-    height: 450px;
-    @include flex (flex, space-around, center);
-    background-color: #662702d3;
-    margin-top: 10px;
-    div{
-        width: 50%;
-        h1{
-            color: nth($colores, 8);
-            font-size:55px;
-            text-align: center;
-            margin: 5px;
-        }
-    }
-    img{
-        width: 25%;
-        height: 400px;
-    }
-}
 .formulario{
-    color: #a85e5e;
-    background-color: rgb(245, 220, 220);
+    color: #f0eaea;
+    background: linear-gradient(rgba(49, 28, 28, 0.685), rgba(73, 74, 75, 0.253)), url("../img/fondo-contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     h2{
         font-size: 35px;
         font-weight: 50px;
         padding: 15px;
         text-align: center;
+        margin: 20px;
     }
     .formularioComponente{
-        width: 60%;
         font-size: 25px;
         padding: 5px;
         margin: 10px 10px 10px 20px;
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        width: 60%;
     }
 }
 .boton{

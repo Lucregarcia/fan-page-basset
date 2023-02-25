@@ -23,6 +23,13 @@
             }
         }
     }
+    .boton{
+        input{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+    }
 }
 @media  screen and (max-width:1000px){
     .hero{
@@ -231,12 +238,6 @@
         img{
             height: 500px;
             width:50%;
-        }
-    }
-    .contactos{
-        img{
-            width: 30%;
-            height: 350px; 
         }
     }
     .orejas{
@@ -540,18 +541,6 @@
             height: 250px;
             width: 35%;
             margin: 15px;
-        }
-    }
-    .contactos{
-        div{
-            h1{
-                font-size: 45px;
-            }
-        }
-    }
-    .contactos{
-        img{
-            width: 45%;
         }
     }
 }
@@ -1072,18 +1061,6 @@
         }
         
     }
-    .contactos{
-        img{
-            width: 40%;
-        }
-    }
-    .contactos{
-        div{
-            h1{
-                font-size: 40px;
-            }
-        }
-    }
 }
 @media screen and (max-width: 500px){
     .carrusel{
@@ -1354,19 +1331,6 @@
     .origen-basset{
         div{
             height: 250px;
-        }
-    }
-    .contactos{
-        img{
-            height: 300px;
-            width: 40%;
-        }
-    }
-    .contactos{
-        div{
-            h1{
-                font-size: 35px;
-            }
         }
     }
 }
