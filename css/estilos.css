@@ -401,8 +401,8 @@ nav ul {
 
 .video img {
   width: 40%;
-  height: 450px;
-  margin: 20px; }
+  height: 350px;
+  margin: 15px; }
 
 .video iframe {
   height: 300px;
@@ -563,7 +563,10 @@ footer {
   .orejas h2 {
     font-size: 20px; }
   .orejas div p {
-    font-size: 17px; } }
+    font-size: 17px; }
+  .video img {
+    width: 35%;
+    height: 300px; } }
 
 @media screen and (max-width: 862px) {
   .hero div h1 {
@@ -668,10 +671,6 @@ footer {
   .origen-basset div p {
     font-size: 15px;
     padding: 5px; }
-  .video img {
-    height: 400px;
-    width: 35%;
-    margin: 10px; }
   .video iframe {
     height: 250px;
     width: 35%;
@@ -724,8 +723,6 @@ footer {
     height: 400px; }
   .alimentacion h2 {
     font-size: 20px; }
-  .video img {
-    height: 350px; }
   .video iframe {
     height: 250px; } }
 
@@ -767,7 +764,10 @@ footer {
     font-size: 17px;
     margin: 10px; }
   .orejas div p {
-    font-size: 17px; } }
+    font-size: 17px; }
+  .video img {
+    width: 40%;
+    height: 250px; } }
 
 @media screen and (max-width: 615px) {
   .hero div h1 {
@@ -867,7 +867,8 @@ footer {
   .video {
     flex-direction: column; }
   .video img {
-    height: 250px; }
+    width: 45%;
+    height: 280px; }
   .video iframe {
     height: 300px;
     width: 80%; } }
@@ -986,7 +987,10 @@ footer {
     width: 160px; }
   .coco .fotococo img {
     width: 150px;
-    height: 240px; } }
+    height: 240px; }
+  .video img {
+    width: 40%;
+    height: 230px; } }
 
 @media screen and (max-width: 410px) {
   .hero img {
@@ -1011,4 +1015,7 @@ footer {
   .hero-nosotros h1 {
     font-size: 20px; }
   .galeria .grid-galeria .grid-item {
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .video img {
+    width: 45%;
+    height: 200px; } }
