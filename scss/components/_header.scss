@@ -1,42 +1,24 @@
 /*-----HEADER------*/
 
 header{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    a{
-        img{
-            height: 100%;
-            width: 150px;
-        }
-    }
-}
-
-nav{
-    ul{
-        list-style: none;
-        padding: 0cm;
-        margin: 5px;
-        display: flex;
-        justify-content: space-around;
-        align-items:center;
-        li{
-            a{
-                text-decoration: none;
-                font-size:20px;
-                font-weight: 30px;
-                color: #2c2b2b;
-                transition-property: background-color;
-                transition-duration: 1s;
-                transition-timing-function:ease;
-                padding: 0px 5px 0px 5px;
-                &:hover{
-                    background-color:rgba(228, 14, 14, 0.514);
-                    color: #2c2b2b;
-                }
+    nav{
+        a{
+            img{
+                height: 100%;
+                width: 200px;
+                margin-left: 20px;
             }
         }
     }
+    
+    ul{
+        li{
+            a{
+                margin: 15px;
+                font-size: 25px;
+                font-weight: 30px
+            }
+        }
+    }
+
 }
