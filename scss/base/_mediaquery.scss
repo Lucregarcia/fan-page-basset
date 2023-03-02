@@ -429,7 +429,7 @@
     footer{
         .seguinos{
             h2{
-                font-size: 15px;
+                font-size: 17px;
             }
         }
     }
@@ -439,8 +439,15 @@
                 img{
                     width:  75%;
                     height: 65px;
-                    margin: 5px;
+                    margin: 3px;
                 }
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            p{
+                font-size: 17px;
             }
         }
     }
@@ -540,6 +547,20 @@
             height: 250px;
             width: 35%;
             margin: 15px;
+        }
+    }
+}
+@media  screen and (max-width:767){
+    header{
+        ul{
+            li{
+                a{
+                    font-size: 20px;
+                    font-weight: 20px;
+                    margin: 0px;
+                    padding: 5px;
+                }
+            }
         }
     }
 }
@@ -649,6 +670,16 @@
     }
 }
 @media screen and (max-width:650px){
+    header{
+        nav{
+            a{
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
     .carrusel{
         div{
             img{
@@ -763,8 +794,23 @@
     }
     .video{
         img{
-            width: 40%;
+            width: 45%;
             height: 250px;
+        }
+    }
+    .formulario{
+        .formularioComponente{
+            font-size: 15px;
+            padding: 2px;
+            margin: 5px 5px 5px 20px;
+        }
+    }
+    .boton{
+        display: flex;
+        justify-content:center;
+        align-items:center
+        input{
+            font-size: 14px;
         }
     }
 }
@@ -927,9 +973,18 @@
         .seguinos{
             a{
                 img{
-                    width:  60%;
+                    width:  65%;
                     height: 45px;
                 }
+            }
+        }
+    }
+    footer{
+        .bassetlovers{
+            margin: 10px;
+            p{
+                font-size: 18px;
+                margin: 8px;
             }
         }
     }
@@ -1125,25 +1180,22 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            margin: 15px;
-        }
-    }
-    footer{
-        .bassetlovers{
-            p{
-                font-size: 25px
-            }
+            margin: 5px;
+            
         }
     }
     footer{
         .seguinos{
-            margin: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
     }
     footer{
         .seguinos{
             h2{
-                font-size: 20px;
+                font-size: 18px;
             }
         }
     }
@@ -1151,7 +1203,7 @@
         .seguinos{
             a{
                 img{
-                    margin: 10px;
+                    margin: 8px;
                     width:  60%;
                     height: 60px;
                 }
@@ -1195,6 +1247,12 @@
         img{
             height: 250px;
             width: 35%;
+        }
+    }
+    .video{
+        img{
+            width: 50%;
+            height: 230px;
         }
     }
 }
@@ -1334,6 +1392,12 @@
             height: 250px;
         }
     }
+    .video{
+        img{
+            width: 50%;
+            height: 200px;
+        }
+    }
 }
 @media screen and (max-width:440px){
     .hero-nosotros{
@@ -1441,8 +1505,8 @@
     }
     .video{
         img{
-            width: 45%;
-            height: 200px;
+            width: 43%;
+            height: 190px;
         }
     }
 }

@@ -22,7 +22,7 @@ header nav a img {
   margin-left: 20px; }
 
 header ul li a {
-  margin: 15px;
+  margin: 5px;
   font-size: 25px;
   font-weight: 30px; }
 
@@ -116,7 +116,6 @@ header ul li a {
 
 /*----MAIN-NOSOTROS----*/
 .hero-nosotros {
-  /*background-image: url(../img/orejas.jpg)*/
   background: linear-gradient(rgba(31, 1, 1, 0.315), rgba(73, 74, 75, 0.253)), url("../img/orejas.jpg");
   width: 100%;
   height: 73vh;
@@ -305,8 +304,8 @@ header ul li a {
       margin: 15px;
       padding: 4px; }
   .anatomia img {
-    width: 60%;
-    height: 300px;
+    width: 50%;
+    height: 280px;
     margin: 10px;
     margin-bottom: 20px; }
 
@@ -393,7 +392,7 @@ header ul li a {
 /*CONTACTO*/
 .formulario {
   color: #f0eaea;
-  background: linear-gradient(rgba(49, 28, 28, 0.685), rgba(73, 74, 75, 0.253)), url("../img/fondo-contacto.jpg");
+  background: linear-gradient(rgba(80, 46, 46, 0.534), rgba(73, 74, 75, 0.253)), url("../img/fondo-contacto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -404,9 +403,9 @@ header ul li a {
     text-align: center;
     margin: 20px; }
   .formulario .formularioComponente {
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
-    margin: 10px 10px 10px 20px;
+    margin: 8px 8px 8px 20px;
     display: flex;
     flex-direction: column;
     width: 60%; }
@@ -612,11 +611,13 @@ footer {
     height: 50px;
     margin: 5px; }
   footer .seguinos h2 {
-    font-size: 15px; }
+    font-size: 17px; }
   footer .seguinos a img {
     width: 75%;
     height: 65px;
-    margin: 5px; } }
+    margin: 3px; }
+  footer .bassetlovers p {
+    font-size: 17px; } }
 
 @media screen and (max-width: 780px) {
   .hero div h1 {
@@ -656,6 +657,13 @@ footer {
     height: 250px;
     width: 35%;
     margin: 15px; } }
+
+@media screen and (max-width: 767) {
+  header ul li a {
+    font-size: 20px;
+    font-weight: 20px;
+    margin: 0px;
+    padding: 5px; } }
 
 @media screen and (max-width: 750px) {
   .galeria .grid-galeria .img2 {
@@ -708,6 +716,9 @@ footer {
     height: 250px; } }
 
 @media screen and (max-width: 650px) {
+  header nav a img {
+    width: 150px;
+    height: 150px; }
   .carrusel div img {
     height: 250px; }
   footer a img {
@@ -747,8 +758,17 @@ footer {
   .orejas div p {
     font-size: 17px; }
   .video img {
-    width: 40%;
-    height: 250px; } }
+    width: 45%;
+    height: 250px; }
+  .formulario .formularioComponente {
+    font-size: 15px;
+    padding: 2px;
+    margin: 5px 5px 5px 20px; }
+  .boton {
+    display: flex;
+    justify-content: center; }
+    .boton align-items:center input {
+      font-size: 14px; } }
 
 @media screen and (max-width: 615px) {
   .hero div h1 {
@@ -798,8 +818,13 @@ footer {
   footer .seguinos h2 {
     font-size: 14px; }
   footer .seguinos a img {
-    width: 60%;
+    width: 65%;
     height: 45px; }
+  footer .bassetlovers {
+    margin: 10px; }
+    footer .bassetlovers p {
+      font-size: 18px;
+      margin: 8px; }
   .hero-nosotros {
     height: 60vh; }
   .hero-nosotros h1 {
@@ -881,15 +906,16 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 15px; }
-  footer .bassetlovers p {
-    font-size: 25px; }
+    margin: 5px; }
   footer .seguinos {
-    margin: 15px; }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
   footer .seguinos h2 {
-    font-size: 20px; }
+    font-size: 18px; }
   footer .seguinos a img {
-    margin: 10px;
+    margin: 8px;
     width: 60%;
     height: 60px; }
   .bienvenidos div h1 {
@@ -904,7 +930,10 @@ footer {
     font-size: 13px; }
   .cuidados img {
     height: 250px;
-    width: 35%; } }
+    width: 35%; }
+  .video img {
+    width: 50%;
+    height: 230px; } }
 
 @media screen and (max-width: 480px) {
   .hero img {
@@ -954,7 +983,10 @@ footer {
     font-size: 30px;
     margin: 5px; }
   .origen-basset div {
-    height: 250px; } }
+    height: 250px; }
+  .video img {
+    width: 50%;
+    height: 200px; } }
 
 @media screen and (max-width: 440px) {
   .hero-nosotros h1 {
@@ -998,5 +1030,5 @@ footer {
   .galeria .grid-galeria .grid-item {
     grid-row: span 1; }
   .video img {
-    width: 45%;
-    height: 200px; } }
+    width: 43%;
+    height: 190px; } }
