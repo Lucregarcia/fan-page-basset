@@ -143,12 +143,12 @@ header ul li a {
     display: flex;
     flex-direction: column; }
     .lola .lola-presentacion h2 {
-      color: #0f0f0f;
+      color: white;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 45px;
       text-align: center;
       justify-content: center;
-      background-color: #e0baba;
+      background-color: rgba(206, 61, 61, 0.582);
       width: 90%;
       margin-bottom: 20px; }
     .lola .lola-presentacion p {
@@ -189,8 +189,8 @@ header ul li a {
       font-size: 45px;
       text-align: center;
       justify-content: center;
-      color: #0f0f0f;
-      background-color: #e0baba;
+      color: white;
+      background-color: rgba(206, 61, 61, 0.582);
       width: 90%;
       margin-bottom: 20px; }
     .coco .lola-presentacion p {
@@ -719,6 +719,8 @@ footer {
   header nav a img {
     width: 150px;
     height: 150px; }
+  .proyecto h2 {
+    font-size: 25px; }
   .carrusel div img {
     height: 250px; }
   footer a img {
@@ -766,8 +768,10 @@ footer {
     margin: 5px 5px 5px 20px; }
   .boton {
     display: flex;
-    justify-content: center; }
-    .boton align-items:center input {
+    justify-content: left;
+    align-items: center;
+    margin-left: 15px; }
+    .boton input {
       font-size: 14px; } }
 
 @media screen and (max-width: 615px) {
@@ -916,8 +920,8 @@ footer {
     font-size: 18px; }
   footer .seguinos a img {
     margin: 8px;
-    width: 60%;
-    height: 60px; }
+    width: 55%;
+    height: 45px; }
   .bienvenidos div h1 {
     font-size: 20px; }
   .bienvenidos div p {
@@ -943,6 +947,8 @@ footer {
     padding: 4px; }
   .hero div a {
     font-size: 20px; }
+  .proyecto h2 {
+    font-size: 18px; }
   .galeria .grid-galeria .img5 {
     grid-row: span 1; }
   .galeria .grid-galeria .img10 {
@@ -950,6 +956,8 @@ footer {
   .galeria .grid-galeria .img11 {
     width: 464px;
     height: 440px; }
+  .anatomia div h2 {
+    font-size: 25px; }
   .anatomia div p {
     font-size: 15px; }
   .comportamiento div p {
@@ -1002,7 +1010,7 @@ footer {
     width: 150px;
     height: 240px; }
   .video img {
-    width: 40%;
+    width: 45%;
     height: 230px; } }
 
 @media screen and (max-width: 410px) {
@@ -1025,6 +1033,8 @@ footer {
     height: 300px; } }
 
 @media screen and (max-width: 400px) {
+  .proyecto h2 {
+    font-size: 15px; }
   .hero-nosotros h1 {
     font-size: 20px; }
   .galeria .grid-galeria .grid-item {

@@ -680,6 +680,11 @@
             }
         }
     }
+    .proyecto{
+        h2{
+            font-size: 25px;
+        }
+    }
     .carrusel{
         div{
             img{
@@ -807,8 +812,9 @@
     }
     .boton{
         display: flex;
-        justify-content:center;
-        align-items:center
+        justify-content:left;
+        align-items:center;
+        margin-left: 15px ;
         input{
             font-size: 14px;
         }
@@ -1204,8 +1210,8 @@
             a{
                 img{
                     margin: 8px;
-                    width:  60%;
-                    height: 60px;
+                    width:  55%;
+                    height: 45px;
                 }
             }
         }
@@ -1277,6 +1283,10 @@
             }
         }
     }
+    .proyecto{
+        h2{font-size: 18px;
+        }
+    }
     .galeria{
         .grid-galeria{
             .img5{
@@ -1300,6 +1310,11 @@
         }
     }
     .anatomia{
+        div{
+            h2{
+                font-size: 25px;
+            }
+        }
         div{
             p{
                 font-size: 15px;
@@ -1430,7 +1445,7 @@
     }
     .video{
         img{
-            width: 40%;
+            width: 45%;
             height: 230px;
         }
     }
@@ -1491,6 +1506,10 @@
     }
 }
 @media screen and (max-width:400px){
+    .proyecto{
+        h2{font-size: 15px;
+        }
+    }
     .hero-nosotros{
         h1{
             font-size: 20px;
