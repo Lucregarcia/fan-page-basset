@@ -1464,6 +1464,12 @@
         }
     }
     .proyecto{
+        h2{
+            font-size: 15px;
+            font-weight: 50px;
+        }
+    }
+    .proyecto{
         .tarjetas{
             .little{
                 div{
@@ -1506,10 +1512,6 @@
     }
 }
 @media screen and (max-width:400px){
-    .proyecto{
-        h2{font-size: 15px;
-        }
-    }
     .hero-nosotros{
         h1{
             font-size: 20px;

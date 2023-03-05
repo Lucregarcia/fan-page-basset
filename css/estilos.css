@@ -1018,6 +1018,9 @@ footer {
     height: 300px; }
   .carrusel div img {
     height: 140px; }
+  .proyecto h2 {
+    font-size: 15px;
+    font-weight: 50px; }
   .proyecto .tarjetas .little div h3 {
     font-size: 25px; }
   .proyecto .tarjetas .little div p {
@@ -1033,8 +1036,6 @@ footer {
     height: 300px; } }
 
 @media screen and (max-width: 400px) {
-  .proyecto h2 {
-    font-size: 15px; }
   .hero-nosotros h1 {
     font-size: 20px; }
   .galeria .grid-galeria .grid-item {
