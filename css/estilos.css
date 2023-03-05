@@ -505,8 +505,8 @@ footer {
   .proyecto .tarjetas .little div p {
     font-size: 24px; }
   .proyecto .tarjetas .little a img {
-    width: 180px;
-    height: 200px; }
+    width: 100%;
+    height: 100%; }
   .hero-nosotros h1 {
     font-size: 40px;
     font-weight: 70px; }
@@ -627,7 +627,7 @@ footer {
     font-size: 20px;
     font-weight: bold; }
   .proyecto h2 {
-    font-size: 28px; }
+    font-size: 30px; }
   .hero-nosotros h1 {
     font-size: 35px; }
   .lola {
@@ -720,7 +720,7 @@ footer {
     width: 150px;
     height: 150px; }
   .proyecto h2 {
-    font-size: 25px; }
+    font-size: 28px; }
   .carrusel div img {
     height: 250px; }
   footer a img {
@@ -778,7 +778,7 @@ footer {
   .hero div h1 {
     font-size: 25px; }
   .proyecto h2 {
-    font-size: 20px; }
+    font-size: 25px; }
   .carrusel div img {
     height: 200px; }
   footer a img {
@@ -1019,7 +1019,7 @@ footer {
   .carrusel div img {
     height: 140px; }
   .proyecto h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 50px; }
   .proyecto .tarjetas .little div h3 {
     font-size: 25px; }
